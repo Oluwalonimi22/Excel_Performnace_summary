@@ -1,7 +1,7 @@
 # Haven Order Company – Employee Performance Summary (Excel)
 
 ## Project Overview
-Haven Order Company's HR team maintains employee information and performance records in separate worksheets. This project builds a Performance Summary that automatically pulls data from both sources and calculates each employee's performance rating and bonus eligibility — no manual cross-referencing required.
+Haven Order Company's HR team maintains employee information and performance records in separate worksheets. This project builds a Performance Summary that automatically pulls data from both sources and calculates each employee's performance rating and bonus eligibility, no manual cross-referencing required.
 
 ## Business Problem
 - Employee details and performance scores are stored in separate worksheets, making it hard to get a full picture of each employee at a glance.
@@ -17,7 +17,7 @@ An Excel workbook with three sheets:
 ## Features
 | Feature | Purpose |
 |---|---|
-| XLOOKUP / VLOOKUP | Retrieves Employee Name, Department, and Performance Score from separate worksheets |
+| VLOOKUP | Retrieves Employee Name, Department, and Performance Score from separate worksheets |
 | IFERROR | Displays "Pending Review" when no performance record exists for an employee |
 | Nested IF | Assigns a Performance Rating (Excellent, Good, Average, Needs Improvement) based on score |
 | IF + OR | Determines Bonus Eligibility based on the assigned rating |
